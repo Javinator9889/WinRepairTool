@@ -1,4 +1,4 @@
-# WRepairTool
+# WinRepairTool
 A Windows application for solving common problems in Windows versions
 
 ## Using basic commands
