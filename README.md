@@ -5,6 +5,7 @@ A Windows application for solving common problems in Windows versions
 # Downloads
 
 + **Windows (64-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe
++ **Windows (32-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe
 
 ## Using basic commands
 *Microsoft* know how to do a good job, so we **use its tools** for repairing your system, fast and easy.
