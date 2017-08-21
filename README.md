@@ -1,6 +1,11 @@
 # WinRepairTool
 A Windows application for solving common problems in Windows versions
 
+
+# Downloads
+
++ **Windows (64-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe
+
 ## Using basic commands
 *Microsoft* know how to do a good job, so we **use its tools** for repairing your system, fast and easy.
 
@@ -8,7 +13,7 @@ A Windows application for solving common problems in Windows versions
 
 
 
-# *If you have Internet connection ...:*
+## *If you have Internet connection ...:*
 
 + **DISM.EXE**, an utility for checking Windows files and restore them from the latest Windows Image (*using Windows Update*). You can see the [official webpage](https://msdn.microsoft.com/en-us/library/hh825236.aspx) to know more about this utility.
 
