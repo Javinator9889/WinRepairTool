@@ -1,12 +1,18 @@
 # WinRepairTool
 A Windows application for solving common problems in Windows versions
 
-
+-------------
 # Downloads
 
+### Latest verions
+[![CircleCI](https://img.shields.io/badge/Download%20(x64)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe)
+[![CircleCI](https://img.shields.io/badge/Download%20(x32)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe)
 
-+ **Windows (64-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe
-+ **Windows (32-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe
+### Get different version
+
+[![CircleCI](https://img.shields.io/badge/Downloads-See%20releases-green.svg)](https://goo.gl/u75kUh)
+
+------------
 
 ## Using basic commands
 *Microsoft* know how to do a good job, so we **use its tools** for repairing your system, fast and easy.
@@ -34,5 +40,9 @@ The files you have to download are:
 
 1. The **Main program**: depending on your Windows version, it can be *64 bits* or *32 bits*.
 2. If your OS is **64 bits**...: you *must download* the attached DLLs for making the program work. Maybe they are not necessary, maybe yes ¯\_(ツ)_/¯
+
+[Check what to download](https://github.com/Javinator9889/WinRepairTool#downloads)
+
+----------
 
 # ENJOY AND DO NOT FORGET TO RATE IF IT WAS USEFUL FOR YOU
