@@ -4,7 +4,6 @@ A Windows application for solving common problems in Windows versions
 
 # Downloads
 
-<a class="github-button" href="https://github.com/ntkme/github-buttons/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download (x64)</a>
 
 + **Windows (64-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe
 + **Windows (32-bit)**: https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe
