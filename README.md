@@ -29,6 +29,8 @@ A Windows application for solving common problems in Windows versions
 
 + **CHKDSK**: the drive checking tool par excellence: simply *looks for damaged blocks in your drives* and repair them. See how it works [right here](https://technet.microsoft.com/en-us/library/cc730714(v=ws.10).aspx).
 
++ **Windows Defender**: in the latest update, it is now available for working. More information [here](https://technet.microsoft.com/en-us/library/gg131918.aspx).
+
 
 *All these utilities need* **admin access** *for working. If not, the program can't start working*. Also, **DISM.EXE** feature needs *Internet connection* for working. In this case, program has an auto **offline** mode which uses only **SFC.EXE** & **CHKDSK**.
 
