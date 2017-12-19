@@ -5,8 +5,8 @@ A Windows application for solving common problems in Windows versions
 # Downloads
 
 ### Latest verions
-[![CircleCI](https://img.shields.io/badge/Download%20(x64)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe)
-[![CircleCI](https://img.shields.io/badge/Download%20(x32)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe)
+[![64-bit](https://img.shields.io/badge/Download%20(x64)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x64).exe)
+[![32-bit](https://img.shields.io/badge/Download%20(x86)-latest-green.svg)](https://github.com/Javinator9889/WinRepairTool/raw/master/WinRepairTool%20(x32).exe)
 
 ### Get different version
 
