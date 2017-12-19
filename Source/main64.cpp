@@ -1,7 +1,6 @@
 #include <iostream>
 #include <windows.h>
 #include <c++/fstream>
-//#include <thread>
 #include "mingw.thread.h"
 #include "plog/Log.h"
 #include "cmdTools.h"
@@ -20,7 +19,6 @@ BOOL IsCurrentUserLocalAdministrator(void);
 bool bConnect(void);
 void exportREADME(void);
 void exportLICENSE(void);
-BOOL IsWow64(void);
 bool IsWin7OrLater(void);
 bool IsWindows8OrGreater(void);
 bool CheckUpdate(string version);
@@ -487,13 +485,13 @@ void WindowsDefender(bool offline) {
         LOG_DEBUG << "OS is Windows 7 OR greater\n";
         LOG_DEBUG << "Looking for new updates...\n";
         if (!offline) {
-            system("cmd /c %ProgramFiles%\\Windows Defender\\MpCmdRun.exe -SignatureUpdate -MMPC");
+            system("cmd /c \"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -SignatureUpdate -MMPC");
             LOG_DEBUG << "Completed\n";
         } else {
             LOG_WARNING << "No Internet connection\n";
         }
         LOG_DEBUG << "Starting fastest scan...\n";
-        int scanResult = system("cmd /c %ProgramFiles%\\Windows Defender\\MpCmdRun.exe -Scan -1 -BootSectorScan");
+        int scanResult = system("cmd /c \"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -Scan -1 -BootSectorScan");
         if (scanResult == 0) {
             cout << "All found problems during Windows Defender scan were solved" << endl;
             LOG_DEBUG << "All found problems were solved\n";
@@ -1076,26 +1074,6 @@ void exportLICENSE(void) {
         LOG_DEBUG << "LICENSE saved correctly";
     }
     return;
-}
-
-BOOL IsWow64(void) {
-    BOOL bIsWow64 = FALSE;
-
-    //IsWow64Process is not available on all supported versions of Windows.
-    //Use GetModuleHandle to get a handle to the DLL that contains the function
-    //and GetProcAddress to get a pointer to the function if available.
-
-    fnIsWow64Process = (LPFN_ISWOW64PROCESS) GetProcAddress(
-            GetModuleHandle(TEXT("kernel32")),"IsWow64Process");
-
-    if(NULL != fnIsWow64Process)
-    {
-        if (!fnIsWow64Process(GetCurrentProcess(),&bIsWow64))
-        {
-            //handle error
-        }
-    }
-    return bIsWow64;
 }
 
 bool CheckUpdate(string version) {

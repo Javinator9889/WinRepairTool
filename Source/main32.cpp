@@ -494,13 +494,13 @@ void WindowsDefender(bool offline) {
         LOG_DEBUG << "OS is Windows 7 OR greater\n";
         LOG_DEBUG << "Looking for new updates...\n";
         if (!offline) {
-            system("cmd /c %ProgramFiles%\\Windows Defender\\MpCmdRun.exe -SignatureUpdate -MMPC");
+            system("cmd /c \"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -SignatureUpdate -MMPC");
             LOG_DEBUG << "Completed\n";
         } else {
             LOG_WARNING << "No Internet connection\n";
         }
         LOG_DEBUG << "Starting fastest scan...\n";
-        int scanResult = system("cmd /c %ProgramFiles%\\Windows Defender\\MpCmdRun.exe -Scan -1 -BootSectorScan");
+        int scanResult = system("cmd /c \"%ProgramFiles%\\Windows Defender\\MpCmdRun.exe\" -Scan -1 -BootSectorScan");
         if (scanResult == 0) {
             cout << "All found problems during Windows Defender scan were solved" << endl;
             LOG_DEBUG << "All found problems were solved\n";
